@@ -1,0 +1,129 @@
+.portada { display: grid;
+    grid-template-rows: 30px 200px 120px;
+    background-image: url(https://img1.wsimg.com/isteam/stock/10284/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1160,h:811);
+ }
+    
+.menu {
+    display: grid;
+
+}
+.dentroportada{
+    display: grid;
+}
+.fotoportada{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul {
+    display: grid;
+    list-style:none;
+    grid-template-rows: 40px;
+    grid-template-columns: auto auto auto auto auto;
+    }
+li {
+    display: grid;
+    border: none;
+    justify-self: center;
+   
+}
+.itemmenu {
+    color: #FFE3E3;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: #FFE3E3;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-style: none;
+    text-decoration: none;
+}
+
+#fotocv {
+        height: 180px;
+        width: auto;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-family: 'Lora', serif;
+        font-size: 70px;
+        color: #393E57;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #68709E;
+    }
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #393E57 ;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif; 
+        color: #282B3D;
+    }
+    h4{
+        font-family: 'Montserrat', sans-serif;
+        color: #393E57;
+    }
+.info{
+    display: grid;
+    background-color: #ebebeb93;
+
+}
+.habilidadesexpere{
+    display: grid;
+ 
+grid-template-columns: auto auto;}
+
+.cajaestudios{
+    display: grid;
+    align-items:center;
+    text-align: center;
+}
+.cajaexperiencia{
+    display: grid;
+    align-items:center;
+    text-align: right;
+    line-height: 20%;
+}
+
+.final{
+    display: grid;
+    grid-template-columns: auto 727px;
+}
+
+.cajacontacto {
+    text-align: center;
+    justify-items: center;
+}
+
+.imagenmail{
+    height: 40px;
+}
+.imagencel{
+    height: 40px;
+
+}
+.imagendire {
+    height: 40px;
+}
+#videos {
+    display: grid;
+    align-items: center;
+    background-color: darkslategrey;
+}
+.fotopresupuesto{
+    display: grid;
+    height: 250px;
+    align-items: center;
+}
+
+    footer{
+        background-color: grey;
+        text-align: center;
+    }
